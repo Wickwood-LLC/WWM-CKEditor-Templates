@@ -10,10 +10,10 @@
 .row:after {
   clear: both;
 }
-.row div:first-child{
+.row > div:first-child{
 	padding-left: 0;
 }
-.row div:last-child {
+.row > div:last-child {
 	padding-right: 0;
 }
 

@@ -208,12 +208,7 @@
 .media-element-container {
 	display: inline-block;
 }
-.media-element-container .content {
-	display: inline-block;
-    background: #efefef;
-    background: rgba(0, 0, 0, 0.05);
-    border: 1px solid purple;
-}
+
 .media-element-container .field-name-field-caption {
 	display: block;
     margin-top: -6px;

@@ -8,6 +8,7 @@ dependencies[] = ckeditor
 dependencies[] = features
 dependencies[] = media_ckeditor
 dependencies[] = wysiwyg_template
+dependencies[] = ckeditor_widgets
 features[features_api][] = api:2
 features[wysiwyg_template][] = 25_75
 features[wysiwyg_template][] = 3_columns

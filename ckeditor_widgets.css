@@ -1,19 +1,19 @@
 /* Bootstrap styles */
-.row {
+.ckeditor-template-row {
   /*margin-left: -15px;
   margin-right: -15px;*/
 }
-.row:before, .row:after {
+.ckeditor-template-row:before, .ckeditor-template-row:after {
   content: " ";
   display: table;
 }
-.row:after {
+.ckeditor-template-row:after {
   clear: both;
 }
-.row > div:first-child{
+.ckeditor-template-row > div:first-child{
 	padding-left: 0;
 }
-.row > div:last-child {
+.ckeditor-template-row > div:last-child {
 	padding-right: 0;
 }
 
@@ -179,7 +179,7 @@
 .box .box-title {
 	background: #ddd;
 }
-.box .row {
+.box .ckeditor-template-row {
 	margin-left: 0;
 	margin-right: 0;
 }

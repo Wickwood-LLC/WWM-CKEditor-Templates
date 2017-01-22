@@ -15,7 +15,7 @@ function wwm_ckeditor_template_feature_wysiwyg_template_default_templates() {
     'weight' => 0,
     'fid' => 0,
     'body' => '<p>&nbsp;</p>
-<div class="row two-col-left">
+<div class="ckeditor-template-row two-col-left">
 <div class="col-md-3 col-sidebar"><img src="http://placehold.it/500x280&text=Image"><p class="rtecenter"><strong><font color="#ff0000">Delete the above image place holder and this text, then insert any media you want or none at all.</font></strong></p><h1>Left Column</h1></div>
 <div class="col-md-9 col-main"><img src="http://placehold.it/500x280&text=Image"><p class="rtecenter"><strong><font color="#ff0000">Delete the above image place holder and this text, then insert any media you want or none at all.</font></strong></p><h1>Main Column</h1></div>
 </div>
@@ -30,7 +30,7 @@ function wwm_ckeditor_template_feature_wysiwyg_template_default_templates() {
     'weight' => 0,
     'fid' => 0,
     'body' => '<p></p>
-<div class="row three-col">
+<div class="ckeditor-template-row three-col">
 <div class="col-md-4 col-1"><img src="http://placehold.it/500x280&text=Image"><p class="rtecenter"><strong><font color="#ff0000">Delete the above image place holder and this text, then insert any media you want or none at all.</font></strong></p><h1>First Column</h1></div>
 <div class="col-md-4 col-2"><img src="http://placehold.it/500x280&text=Image"><p class="rtecenter"><strong><font color="#ff0000">Delete the above image place holder and this text, then insert any media you want or none at all.</font></strong></p><h1>Second Column</h1></div>
 <div class="col-md-4 col-3"><img src="http://placehold.it/500x280&text=Image"><p class="rtecenter"><strong><font color="#ff0000">Delete the above image place holder and this text, then insert any media you want or none at all.</font></strong></p><h1>Third Column</h1></div>
@@ -46,7 +46,7 @@ function wwm_ckeditor_template_feature_wysiwyg_template_default_templates() {
     'weight' => 0,
     'fid' => 0,
     'body' => '<p></p>
-<div class="row four-col">
+<div class="ckeditor-template-row four-col">
 <div class="col col-md-3 col-1"><img src="http://placehold.it/500x280&text=Image"><p class="rtecenter"><strong><font color="#ff0000">Delete the above image place holder and this text, then insert any media you want or none at all.</font></strong></p><h1>Column 1</h1></div>
 <div class="col col-md-3 col-2"><img src="http://placehold.it/500x280&text=Image"><p class="rtecenter"><strong><font color="#ff0000">Delete the above image place holder and this text, then insert any media you want or none at all.</font></strong></p><h1>Column 2</h1></div>
 <div class="col col-md-3 col-3"><img src="http://placehold.it/500x280&text=Image"><p class="rtecenter"><strong><font color="#ff0000">Delete the above image place holder and this text, then insert any media you want or none at all.</font></strong></p><h1>Column 3</h1></div>
@@ -63,7 +63,7 @@ function wwm_ckeditor_template_feature_wysiwyg_template_default_templates() {
     'weight' => 0,
     'fid' => 0,
     'body' => '<p></p>
-<div class="row two-col">
+<div class="ckeditor-template-row two-col">
 <div class="col-md-6 col-1"><img src="http://placehold.it/500x280&text=Image"><p class="rtecenter"><strong><font color="#ff0000">Delete the above image place holder and this text, then insert any media you want or none at all.</font></strong></p><h1>First Column</h1></div>
 <div class="col-md-6 col-2"><img src="http://placehold.it/500x280&text=Image"><p class="rtecenter"><strong><font color="#ff0000">Delete the above image place holder and this text, then insert any media you want or none at all.</font></strong></p><h1>Second Column</h1></div>
 </div>
@@ -78,7 +78,7 @@ function wwm_ckeditor_template_feature_wysiwyg_template_default_templates() {
     'weight' => 0,
     'fid' => 0,
     'body' => '<p></p>
-<div class="row two-col-right">
+<div class="ckeditor-template-row two-col-right">
 <div class="col-md-9 col-main"><img src="http://placehold.it/500x280&text=Image"><p class="rtecenter"><strong><font color="#ff0000">Delete the above image place holder and this text, then insert any media you want or none at all.</font></strong></p><h1>Main Column</h1></div>
 <div class="col-md-3 col-sidebar"><img src="http://placehold.it/500x280&text=Image"><p class="rtecenter"><strong><font color="#ff0000">Delete the above image place holder and this text, then insert any media you want or none at all.</font></strong></p><h1>Right Column</h1></div>
 </div>

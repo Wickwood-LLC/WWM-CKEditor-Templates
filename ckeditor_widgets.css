@@ -205,10 +205,6 @@
     font-weight: bold;
 }
 
-.media-element-container {
-	display: inline-block;
-}
-
 .media-element-container .field-name-field-caption {
 	display: block;
     margin-top: -6px;

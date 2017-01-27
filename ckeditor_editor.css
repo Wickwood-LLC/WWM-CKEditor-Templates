@@ -36,7 +36,7 @@ table.cke_editor fieldset {
 	clear: both; 
 } 
  
-.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 { 
+.ckeditor-template-col-xs-1, .ckeditor-template-col-sm-1, .ckeditor-template-col-md-1, .ckeditor-template-col-lg-1, .ckeditor-template-col-xs-2, .ckeditor-template-col-sm-2, .ckeditor-template-col-md-2, .ckeditor-template-col-lg-2, .ckeditor-template-col-xs-3, .ckeditor-template-col-sm-3, .ckeditor-template-col-md-3, .ckeditor-template-col-lg-3, .ckeditor-template-col-xs-4, .ckeditor-template-col-sm-4, .ckeditor-template-col-md-4, .ckeditor-template-col-lg-4, .ckeditor-template-col-xs-5, .ckeditor-template-col-sm-5, .ckeditor-template-col-md-5, .ckeditor-template-col-lg-5, .ckeditor-template-col-xs-6, .ckeditor-template-col-sm-6, .ckeditor-template-col-md-6, .ckeditor-template-col-lg-6, .ckeditor-template-col-xs-7, .ckeditor-template-col-sm-7, .ckeditor-template-col-md-7, .ckeditor-template-col-lg-7, .ckeditor-template-col-xs-8, .ckeditor-template-col-sm-8, .ckeditor-template-col-md-8, .ckeditor-template-col-lg-8, .ckeditor-template-col-xs-9, .ckeditor-template-col-sm-9, .ckeditor-template-col-md-9, .ckeditor-template-col-lg-9, .ckeditor-template-col-xs-10, .ckeditor-template-col-sm-10, .ckeditor-template-col-md-10, .ckeditor-template-col-lg-10, .ckeditor-template-col-xs-11, .ckeditor-template-col-sm-11, .ckeditor-template-col-md-11, .ckeditor-template-col-lg-11, .ckeditor-template-col-xs-12, .ckeditor-template-col-sm-12, .ckeditor-template-col-md-12, .ckeditor-template-col-lg-12 { 
 	  position: relative; 
 	  min-height: 1px; 
 	  float: left; 
@@ -44,24 +44,24 @@ table.cke_editor fieldset {
 	  box-sizing: border-box; 
 	  -moz-box-sizing: border-box; 
 } 
-.col-md-6 { 
+.ckeditor-template-col-md-6 { 
 	width: 50%; 
 } 
-.col-md-3 { 
+.ckeditor-template-col-md-3 { 
 	width: 25%; 
 } 
-.col-md-9 { 
+.ckeditor-template-col-md-9 { 
   	width: 75%; 
 } 
-.col-md-4 { 
+.ckeditor-template-col-md-4 { 
   	width: 33.3%; 
 } 
  
 /* Custom styles */ 
-.col-md-6 img, 
-.col-md-3 img, 
-.col-md-4 img, 
-.col-md-9 img { 
+.ckeditor-template-col-md-6 img, 
+.ckeditor-template-col-md-3 img, 
+.ckeditor-template-col-md-4 img, 
+.ckeditor-template-col-md-9 img { 
 	display: block; 
 	max-width: 100%; 
 	height: auto; 
@@ -80,13 +80,13 @@ table.cke_editor fieldset {
 	border: 1px solid #ddd; 
 	box-shadow: 0 1px 1px #fff inset, 0 -1px 0px #ccc inset; 
 } 
-.two-col .col-md-6, 
-.two-col-left .col-md-3, 
-.two-col-left .col-md-9, 
-.two-col-right .col-md-3, 
-.two-col-right .col-md-9, 
-.three-col .col-md-4, 
-.four-col .col-md-3, 
+.two-col .ckeditor-template-col-md-6, 
+.two-col-left .ckeditor-template-col-md-3, 
+.two-col-left .ckeditor-template-col-md-9, 
+.two-col-right .ckeditor-template-col-md-3, 
+.two-col-right .ckeditor-template-col-md-9, 
+.three-col .ckeditor-template-col-md-4, 
+.four-col .ckeditor-template-col-md-3, 
 .accordion dd .content, 
 .accordion dd.accordion-navigation>a, 
 .col { 
@@ -96,46 +96,46 @@ table.cke_editor fieldset {
 	background: #fff; 
 	min-height: 5em; 
 } 
-.two-col .col-md-6, 
-.two-col-left .col-md-3, 
-.two-col-left .col-md-9, 
-.two-col-right .col-md-3, 
-.two-col-right .col-md-9 { 
+.two-col .ckeditor-template-col-md-6, 
+.two-col-left .ckeditor-template-col-md-3, 
+.two-col-left .ckeditor-template-col-md-9, 
+.two-col-right .ckeditor-template-col-md-3, 
+.two-col-right .ckeditor-template-col-md-9 { 
 	margin: -3px; 
 } 
-.two-col-right .col-sidebar, 
-.two-col-left .col-sidebar { 
+.two-col-right .ckeditor-template-col-sidebar, 
+.two-col-left .ckeditor-template-col-sidebar { 
 	padding: 15px 0; 
 } 
-.two-col .col-2 { 
+.two-col .ckeditor-template-col-2 { 
 	margin-left: 9px; 
 } 
-.three-col .col-1 { 
+.three-col .ckeditor-template-col-1 { 
 	margin-left: -3px; 
 } 
-.three-col .col-2 { 
+.three-col .ckeditor-template-col-2 { 
 	margin-left: 3px; 
 } 
-.three-col .col-3 { 
+.three-col .ckeditor-template-col-3 { 
 	margin-left: 3px; 
 	margin-right: -3px; 
 } 
-.two-col-left .col-md-9{ 
+.two-col-left .ckeditor-template-col-md-9{ 
 	margin-left: 8px; 
 } 
-.two-col-right .col-md-9{ 
+.two-col-right .ckeditor-template-col-md-9{ 
 	margin-right: 8px; 
 } 
-.four-col .col-1 { 
+.four-col .ckeditor-template-col-1 { 
 	margin-left: -4px; 
 } 
-.four-col .col-2 { 
+.four-col .ckeditor-template-col-2 { 
 	margin-left: 3px; 
 } 
-.four-col .col-3 { 
+.four-col .ckeditor-template-col-3 { 
 	margin-left: 3px; 
 } 
-.four-col .col-4 { 
+.four-col .ckeditor-template-col-4 { 
 	margin-right: -5px; 
 	margin-left: 3px; 
 } 

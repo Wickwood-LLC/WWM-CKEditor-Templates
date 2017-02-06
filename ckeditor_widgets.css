@@ -198,6 +198,7 @@
 	border: 1px solid #785fa0;
 	background-color: #efefef;
 	padding: 8px;
+	display: inline-block;
 }
 .panel .panel-heading {
 	text-align: center;

@@ -216,7 +216,7 @@ table.cke_editor fieldset {
  
 .quotebox { 
 	background: #efefef url(../images/postquote.png) 5px 2px no-repeat; 
-    border: 1px solid #ccc; 
+    border: 1px solid #785fa0; 
 } 
 .quotebox .quote { 
 	margin-left: 20px; 
@@ -224,7 +224,7 @@ table.cke_editor fieldset {
 } 
  
 .panel { 
-	border: 1px solid #ccc; 
+	border: 1px solid #785fa0; 
 	background-color: #efefef; 
 	padding: 8px;
 	display: inline-block;

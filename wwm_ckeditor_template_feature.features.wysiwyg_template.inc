@@ -10,14 +10,14 @@
 function wwm_ckeditor_template_feature_wysiwyg_template_default_templates() {
   $templates = array();
   $templates['25_75'] = array(
-    'title' => '25/75',
-    'description' => 'Two column layout. ',
+    'title' => '25/75 Two Columns',
+    'description' => '25% / 75% two column layout',
     'weight' => 0,
     'fid' => 0,
     'body' => '<p>&nbsp;</p>
-<div class="row two-col-left">
-<div class="col-md-3 col-sidebar"><img src="http://placehold.it/500x280&text=Image"><p class="rtecenter"><strong><font color="#ff0000">Delete the above image place holder and this text, then insert any media you want or none at all.</font></strong></p><h1>Left Column</h1></div>
-<div class="col-md-9 col-main"><img src="http://placehold.it/500x280&text=Image"><p class="rtecenter"><strong><font color="#ff0000">Delete the above image place holder and this text, then insert any media you want or none at all.</font></strong></p><h1>Main Column</h1></div>
+<div class="ckeditor-template-row two-ckeditor-template-col-left">
+<div class="ckeditor-template-col-md-3 ckeditor-template-col-sidebar"><img src="http://placehold.it/500x280&text=Image"><p class="rtecenter"><strong><font color="#ff0000">Delete the above image place holder and this text, then insert any media you want or none at all.</font></strong></p><h1>Left Column</h1></div>
+<div class="ckeditor-template-col-md-9 ckeditor-template-col-main"><img src="http://placehold.it/500x280&text=Image"><p class="rtecenter"><strong><font color="#ff0000">Delete the above image place holder and this text, then insert any media you want or none at all.</font></strong></p><h1>Main Column</h1></div>
 </div>
 <p>&nbsp;</p>',
     'format' => 6,
@@ -30,10 +30,10 @@ function wwm_ckeditor_template_feature_wysiwyg_template_default_templates() {
     'weight' => 0,
     'fid' => 0,
     'body' => '<p></p>
-<div class="row three-col">
-<div class="col-md-4 col-1"><img src="http://placehold.it/500x280&text=Image"><p class="rtecenter"><strong><font color="#ff0000">Delete the above image place holder and this text, then insert any media you want or none at all.</font></strong></p><h1>First Column</h1></div>
-<div class="col-md-4 col-2"><img src="http://placehold.it/500x280&text=Image"><p class="rtecenter"><strong><font color="#ff0000">Delete the above image place holder and this text, then insert any media you want or none at all.</font></strong></p><h1>Second Column</h1></div>
-<div class="col-md-4 col-3"><img src="http://placehold.it/500x280&text=Image"><p class="rtecenter"><strong><font color="#ff0000">Delete the above image place holder and this text, then insert any media you want or none at all.</font></strong></p><h1>Third Column</h1></div>
+<div class="ckeditor-template-row three-col">
+<div class="ckeditor-template-col-md-4 ckeditor-template-col-1"><img src="http://placehold.it/500x280&text=Image"><p class="rtecenter"><strong><font color="#ff0000">Delete the above image place holder and this text, then insert any media you want or none at all.</font></strong></p><h1>First Column</h1></div>
+<div class="ckeditor-template-col-md-4 ckeditor-template-col-2"><img src="http://placehold.it/500x280&text=Image"><p class="rtecenter"><strong><font color="#ff0000">Delete the above image place holder and this text, then insert any media you want or none at all.</font></strong></p><h1>Second Column</h1></div>
+<div class="ckeditor-template-col-md-4 ckeditor-template-col-3"><img src="http://placehold.it/500x280&text=Image"><p class="rtecenter"><strong><font color="#ff0000">Delete the above image place holder and this text, then insert any media you want or none at all.</font></strong></p><h1>Third Column</h1></div>
 </div>
 <p></p>',
     'format' => 6,
@@ -46,11 +46,11 @@ function wwm_ckeditor_template_feature_wysiwyg_template_default_templates() {
     'weight' => 0,
     'fid' => 0,
     'body' => '<p></p>
-<div class="row four-col">
-<div class="col col-md-3 col-1"><img src="http://placehold.it/500x280&text=Image"><p class="rtecenter"><strong><font color="#ff0000">Delete the above image place holder and this text, then insert any media you want or none at all.</font></strong></p><h1>Column 1</h1></div>
-<div class="col col-md-3 col-2"><img src="http://placehold.it/500x280&text=Image"><p class="rtecenter"><strong><font color="#ff0000">Delete the above image place holder and this text, then insert any media you want or none at all.</font></strong></p><h1>Column 2</h1></div>
-<div class="col col-md-3 col-3"><img src="http://placehold.it/500x280&text=Image"><p class="rtecenter"><strong><font color="#ff0000">Delete the above image place holder and this text, then insert any media you want or none at all.</font></strong></p><h1>Column 3</h1></div>
-<div class="col col-md-3 col-4"><img src="http://placehold.it/500x280&text=Image"><p class="rtecenter"><strong><font color="#ff0000">Delete the above image place holder and this text, then insert any media you want or none at all.</font></strong></p><h1>Column 4</h1></div>
+<div class="ckeditor-template-row four-col">
+<div class="col ckeditor-template-col-md-3 ckeditor-template-col-1"><img src="http://placehold.it/500x280&text=Image"><p class="rtecenter"><strong><font color="#ff0000">Delete the above image place holder and this text, then insert any media you want or none at all.</font></strong></p><h1>Column 1</h1></div>
+<div class="col ckeditor-template-col-md-3 ckeditor-template-col-2"><img src="http://placehold.it/500x280&text=Image"><p class="rtecenter"><strong><font color="#ff0000">Delete the above image place holder and this text, then insert any media you want or none at all.</font></strong></p><h1>Column 2</h1></div>
+<div class="col ckeditor-template-col-md-3 ckeditor-template-col-3"><img src="http://placehold.it/500x280&text=Image"><p class="rtecenter"><strong><font color="#ff0000">Delete the above image place holder and this text, then insert any media you want or none at all.</font></strong></p><h1>Column 3</h1></div>
+<div class="col ckeditor-template-col-md-3 ckeditor-template-col-4"><img src="http://placehold.it/500x280&text=Image"><p class="rtecenter"><strong><font color="#ff0000">Delete the above image place holder and this text, then insert any media you want or none at all.</font></strong></p><h1>Column 4</h1></div>
 </div>
 <p></p>',
     'format' => 6,
@@ -58,14 +58,14 @@ function wwm_ckeditor_template_feature_wysiwyg_template_default_templates() {
     'content_types' => array(),
   );
   $templates['50_50'] = array(
-    'title' => '50/50',
-    'description' => 'Two column layout.',
+    'title' => '50/50 Two Columns',
+    'description' => '50% / 50% two column layout.',
     'weight' => 0,
     'fid' => 0,
     'body' => '<p></p>
-<div class="row two-col">
-<div class="col-md-6 col-1"><img src="http://placehold.it/500x280&text=Image"><p class="rtecenter"><strong><font color="#ff0000">Delete the above image place holder and this text, then insert any media you want or none at all.</font></strong></p><h1>First Column</h1></div>
-<div class="col-md-6 col-2"><img src="http://placehold.it/500x280&text=Image"><p class="rtecenter"><strong><font color="#ff0000">Delete the above image place holder and this text, then insert any media you want or none at all.</font></strong></p><h1>Second Column</h1></div>
+<div class="ckeditor-template-row two-col">
+<div class="ckeditor-template-col-md-6 ckeditor-template-col-1"><img src="http://placehold.it/500x280&text=Image"><p class="rtecenter"><strong><font color="#ff0000">Delete the above image place holder and this text, then insert any media you want or none at all.</font></strong></p><h1>First Column</h1></div>
+<div class="ckeditor-template-col-md-6 ckeditor-template-col-2"><img src="http://placehold.it/500x280&text=Image"><p class="rtecenter"><strong><font color="#ff0000">Delete the above image place holder and this text, then insert any media you want or none at all.</font></strong></p><h1>Second Column</h1></div>
 </div>
 <p></p>',
     'format' => 6,
@@ -73,14 +73,14 @@ function wwm_ckeditor_template_feature_wysiwyg_template_default_templates() {
     'content_types' => array(),
   );
   $templates['75_25'] = array(
-    'title' => '75/25',
-    'description' => 'Two column layout.',
+    'title' => '75/25 Two Columns',
+    'description' => '75% / 25% two column layout.',
     'weight' => 0,
     'fid' => 0,
     'body' => '<p></p>
-<div class="row two-col-right">
-<div class="col-md-9 col-main"><img src="http://placehold.it/500x280&text=Image"><p class="rtecenter"><strong><font color="#ff0000">Delete the above image place holder and this text, then insert any media you want or none at all.</font></strong></p><h1>Main Column</h1></div>
-<div class="col-md-3 col-sidebar"><img src="http://placehold.it/500x280&text=Image"><p class="rtecenter"><strong><font color="#ff0000">Delete the above image place holder and this text, then insert any media you want or none at all.</font></strong></p><h1>Right Column</h1></div>
+<div class="ckeditor-template-row two-ckeditor-template-col-right">
+<div class="ckeditor-template-col-md-9 ckeditor-template-col-main"><img src="http://placehold.it/500x280&text=Image"><p class="rtecenter"><strong><font color="#ff0000">Delete the above image place holder and this text, then insert any media you want or none at all.</font></strong></p><h1>Main Column</h1></div>
+<div class="ckeditor-template-col-md-3 ckeditor-template-col-sidebar"><img src="http://placehold.it/500x280&text=Image"><p class="rtecenter"><strong><font color="#ff0000">Delete the above image place holder and this text, then insert any media you want or none at all.</font></strong></p><h1>Right Column</h1></div>
 </div>
 <p></p>',
     'format' => 6,
@@ -123,42 +123,6 @@ function wwm_ckeditor_template_feature_wysiwyg_template_default_templates() {
     'body' => '<hr/>',
     'format' => 6,
     'name' => 'horizontal_line',
-    'content_types' => array(),
-  );
-  $templates['image_align_center'] = array(
-    'title' => 'Image Align Center',
-    'description' => 'Insert image aligned center.',
-    'weight' => 0,
-    'fid' => 0,
-    'body' => '<p class="align-center">
-<img src="http://placehold.it/500x280&text=Image"><p class="rtecenter"><strong><font color="#ff0000">Delete the above image place holder and this text, then insert any media you want or none at all.</font></strong></p>
-</p>',
-    'format' => 1,
-    'name' => 'image_align_center',
-    'content_types' => array(),
-  );
-  $templates['image_align_left'] = array(
-    'title' => 'Image Align Left',
-    'description' => 'Insert image aligned left.',
-    'weight' => 0,
-    'fid' => 0,
-    'body' => '<p>
-<img src="http://placehold.it/500x280&text=Image" class="align-left"><p class="rtecenter"><strong><font color="#ff0000">Delete the above image place holder and this text, then insert any media you want or none at all.</font></strong></p>
-</p>',
-    'format' => 1,
-    'name' => 'image_align_left',
-    'content_types' => array(),
-  );
-  $templates['image_align_right'] = array(
-    'title' => 'Image Align Right',
-    'description' => 'Insert image aligned right.',
-    'weight' => 0,
-    'fid' => 0,
-    'body' => '<p>
-<img src="http://placehold.it/500x280&text=Image" class="align-right"><p class="rtecenter"><strong><font color="#ff0000">Delete the above image place holder and this text, then insert any media you want or none at all.</font></strong></p>
-</p>',
-    'format' => 1,
-    'name' => 'image_align_right',
     'content_types' => array(),
   );
   $templates['zurb_clearing'] = array(

@@ -222,7 +222,7 @@ table.cke_editor fieldset {
 	margin-bottom: 5px; 
 } 
 
-[class*="col"] {
+[class*="col-md"] {
 	box-shadow: 0 1px 1px #ddd inset;
     border: 1px solid #cccccc;
     border-radius: 5px;
@@ -230,10 +230,10 @@ table.cke_editor fieldset {
     min-height: 5em;
     margin-left: 0.5em;
 }
-[class*="col"]:first-child {
+[class*="col-md"]:first-child {
 	margin-left: -0.25em;
 }
-[class*="col"]:last-child {
+[class*="col-md"]:last-child {
 	margin-right: -0.5em;
 }
 

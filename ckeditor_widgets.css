@@ -118,6 +118,8 @@
 .four-col .col {
 	margin-left: 5px;
 	margin-right: 5px;
+	padding-left: 0;
+	padding-right: 0;
 	flex: 1 auto;
 }
 .four-col .col:first-child {

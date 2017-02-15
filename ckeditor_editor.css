@@ -258,4 +258,5 @@ a.button {
     -moz-border-radius: 20px;
     -webkit-border-radius: 15px;
     border-radius: 15px;
+    text-decoration: none;
 }

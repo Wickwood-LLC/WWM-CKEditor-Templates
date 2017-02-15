@@ -88,75 +88,13 @@ function wwm_ckeditor_template_feature_wysiwyg_template_default_templates() {
     'content_types' => array(),
   );
   $templates['call_to_action_blue'] = array(
-    'title' => 'Call to Action Blue',
-    'description' => 'Call to Action Button Blue',
+    'title' => 'Button Link',
+    'description' => 'Create a Link that Looks Like a Button',
     'weight' => 0,
     'fid' => 0,
-    'body' => '<a href="#" class="button primary">Learn More</a>',
+    'body' => '<a href="#" class="button primary call-to-action">Insert Button Text Here</a> <p>Instructions: Change “Insert Button Text Here” but don’t remove the quotes until after you change the text.  Then select the link text and change the link with LinkIt from the Editor and remove these instructions</p>',
     'format' => 6,
     'name' => 'call_to_action_blue',
-    'content_types' => array(),
-  );
-  $templates['callout_list'] = array(
-    'title' => 'Callout List',
-    'description' => 'A list of important links',
-    'weight' => 0,
-    'fid' => 0,
-    'body' => '<ul class="callout-list">
-<li><a href="http://www.google.com">Link Example</a></li>
-<li><a href="http://www.google.com">Link Example</a></li>
-<li><a href="http://www.google.com">Link Example</a></li>
-<li><a href="http://www.google.com">Link Example</a></li>
-<li><a href="http://www.google.com">Link Example</a></li>
-<li><a href="http://www.google.com">Link Example</a></li>
-<li><a href="http://www.google.com">Link Example</a></li>
-</ul>',
-    'format' => 6,
-    'name' => 'callout_list',
-    'content_types' => array(),
-  );
-  $templates['horizontal_line'] = array(
-    'title' => 'Horizontal Line',
-    'description' => 'Horizontal Line',
-    'weight' => 0,
-    'fid' => 0,
-    'body' => '<hr/>',
-    'format' => 6,
-    'name' => 'horizontal_line',
-    'content_types' => array(),
-  );
-  $templates['zurb_clearing'] = array(
-    'title' => 'Zurb Clearing',
-    'description' => 'Add images which can be enlarged on the site.',
-    'weight' => 0,
-    'fid' => 0,
-    'body' => '<div><ul class="clearing-thumbs" data-clearing=""><li><a href="http://placehold.it/1500x1000"><img src="http://placehold.it/500x350"></a><p class="rtecenter"><strong><font color="#ff0000">Delete the above image place holder and this text, then insert any media you want or none at all.</font></strong></p></li></ul><p>&nbsp;</p></div><p></p>',
-    'format' => 6,
-    'name' => 'zurb_clearing',
-    'content_types' => array(),
-  );
-  $templates['zurb_clearing_multiple_images_'] = array(
-    'title' => 'Zurb Clearing (Multiple Images)',
-    'description' => 'Multiple images with Zurb Clearing.',
-    'weight' => 0,
-    'fid' => 0,
-    'body' => '<div><p>&nbsp;</p>
-
-<ul class="clearing-thumbs clearing-feature" data-clearing>
-<li class="clearing-featured-img"><a href="http://placehold.it/1500x1000"><img src="http://placehold.it/1500x1000"></a></li>
-<li><a href="http://placehold.it/1500x1000"><img src="http://placehold.it/1500x1000"></a></li>
-<li><a href="http://placehold.it/1500x1000"><img src="http://placehold.it/1500x1000"></a></li>
-<li><a href="http://placehold.it/1500x1000"><img src="http://placehold.it/1500x1000"></a></li>
-<li><a href="http://placehold.it/1500x1000"><img src="http://placehold.it/1500x1000"></a></li>
-<li><a href="http://placehold.it/1500x1000"><img src="http://placehold.it/1500x1000"></a></li>
-<li><a href="http://placehold.it/1500x1000"><img src="http://placehold.it/1500x1000"></a></li>
-<li><a href="http://placehold.it/1500x1000"><img src="http://placehold.it/1500x1000"></a></li>
-
-</ul>
-
-<p>&nbsp;</p></div><p>&nbsp;</p>',
-    'format' => 6,
-    'name' => 'zurb_clearing_multiple_images_',
     'content_types' => array(),
   );
   return $templates;

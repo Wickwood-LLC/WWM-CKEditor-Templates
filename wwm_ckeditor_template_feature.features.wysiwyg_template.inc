@@ -12,7 +12,7 @@ function wwm_ckeditor_template_feature_wysiwyg_template_default_templates() {
   $templates['25_75'] = array(
     'title' => '25/75 Two Columns',
     'description' => '25% / 75% two column layout',
-    'weight' => 0,
+    'weight' => 8,
     'fid' => 0,
     'body' => '<p>&nbsp;</p>
 <div class="row two-col-left">
@@ -27,7 +27,7 @@ function wwm_ckeditor_template_feature_wysiwyg_template_default_templates() {
   $templates['3_columns'] = array(
     'title' => '3 Columns',
     'description' => 'Three column layout.',
-    'weight' => 0,
+    'weight' => 11,
     'fid' => 0,
     'body' => '<p></p>
 <div class="row three-col">
@@ -43,7 +43,7 @@ function wwm_ckeditor_template_feature_wysiwyg_template_default_templates() {
   $templates['4_columns'] = array(
     'title' => '4 Columns',
     'description' => '4 Column Layout',
-    'weight' => 0,
+    'weight' => 12,
     'fid' => 0,
     'body' => '<p></p>
 <div class="row four-col">
@@ -60,7 +60,7 @@ function wwm_ckeditor_template_feature_wysiwyg_template_default_templates() {
   $templates['50_50'] = array(
     'title' => '50/50 Two Columns',
     'description' => '50% / 50% two column layout.',
-    'weight' => 0,
+    'weight' => 9,
     'fid' => 0,
     'body' => '<p></p>
 <div class="row two-col">
@@ -75,7 +75,7 @@ function wwm_ckeditor_template_feature_wysiwyg_template_default_templates() {
   $templates['75_25'] = array(
     'title' => '75/25 Two Columns',
     'description' => '75% / 25% two column layout.',
-    'weight' => 0,
+    'weight' => 10,
     'fid' => 0,
     'body' => '<p></p>
 <div class="row two-col-right">
@@ -87,14 +87,40 @@ function wwm_ckeditor_template_feature_wysiwyg_template_default_templates() {
     'name' => '75_25',
     'content_types' => array(),
   );
+  $templates['block_with_title'] = array(
+    'title' => 'Block with Title',
+    'description' => 'Layout to provide a block of text with a Title above it',
+    'weight' => 6,
+    'fid' => 0,
+    'body' => '<div class="row box">
+<div class="box-title">Title</h2></div>
+<div class="box-content">Content</div>
+</div>',
+    'format' => 1,
+    'name' => 'block_with_title',
+    'content_types' => array(),
+  );
   $templates['call_to_action_blue'] = array(
     'title' => 'Button Link',
     'description' => 'Create a Link that Looks Like a Button',
-    'weight' => 0,
+    'weight' => 13,
     'fid' => 0,
     'body' => '<a href="#" class="button primary call-to-action">Insert Button Text Here</a> <p>Instructions: Change “Insert Button Text Here” but don’t remove the quotes until after you change the text.  Then select the link text and change the link with LinkIt from the Editor and remove these instructions</p>',
     'format' => 6,
     'name' => 'call_to_action_blue',
+    'content_types' => array(),
+  );
+  $templates['quote_block'] = array(
+    'title' => 'Quote Block',
+    'description' => 'Layout to provide a block of text styled as a quote with an attribution below it',
+    'weight' => 7,
+    'fid' => 0,
+    'body' => '<div class="row quotebox">
+<div class="row quote">Quote</div>
+<div class="row byline">&mdash; Person</div>
+</div>',
+    'format' => 1,
+    'name' => 'quote_block',
     'content_types' => array(),
   );
   return $templates;

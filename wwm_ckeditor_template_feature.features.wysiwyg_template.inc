@@ -105,7 +105,7 @@ function wwm_ckeditor_template_feature_wysiwyg_template_default_templates() {
     'description' => 'Create a Link that Looks Like a Button',
     'weight' => 13,
     'fid' => 0,
-    'body' => '<a href="#" class="button primary call-to-action">Insert Button Text Here</a> <p>Instructions: Change “Insert Button Text Here” but don’t remove the quotes until after you change the text.  Then select the link text and change the link with LinkIt from the Editor and remove these instructions</p>',
+    'body' => '<a href="#" class="button primary call-to-action">"Insert Button Text Here"</a> <p><font color="#ff0000">Instructions: Change “Insert Button Text Here” but don’t remove the quotes until after you change the text.  Then select the link text and change the link with LinkIt from the Editor and remove these instructions</font></p>',
     'format' => 6,
     'name' => 'call_to_action_blue',
     'content_types' => array(),

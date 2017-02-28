@@ -1,5 +1,7 @@
 <?php
 /**
  * @file
- * Drupal needs this blank file.
+ * Code for the WWM CKEditor Template Feature feature.
  */
+
+include_once 'wwm_ckeditor_template_feature.features.inc';

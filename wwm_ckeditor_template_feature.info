@@ -8,7 +8,6 @@ dependencies[] = ctools
 dependencies[] = features
 dependencies[] = strongarm
 dependencies[] = wysiwyg_template
-stylesheets[all][] = wwm_template_feature_ckeditor_page.css
 features[ctools][] = strongarm:strongarm:1
 features[features_api][] = api:2
 features[variable][] = wysiwyg_template_content_view_styles

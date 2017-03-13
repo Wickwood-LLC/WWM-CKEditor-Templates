@@ -14,24 +14,24 @@ function wwm_ckeditor_template_feature_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'wysiwyg_template_content_view_styles';
-  $strongarm->value = '.row { 
+  $strongarm->value = '.wt-row { 
   margin-left: -15px; 
   margin-right: -15px; 
 } 
-.row:before, .row:after {
+.wt-row:before, .wt-row:after {
   content: " ";
   display: table;
 }
-.row:after {
+.wt-row:after {
   clear: both;
 }
-.row > div:first-child{
+.wt-row > div:first-child{
   padding-left: 0;
 }
-.row > div:last-child {
+.wt-row > div:last-child {
   padding-right: 0;
 }
-.col-md-3, .col-md-4, .col-md-6, .col-md-9 { 
+.wt-col-md-3, .wt-col-md-4, .wt-col-md-6, .wt-col-md-9 { 
   position: relative; 
   min-height: 1px; 
   float: left; 
@@ -39,106 +39,106 @@ function wwm_ckeditor_template_feature_strongarm() {
   box-sizing: border-box; 
    -moz-box-sizing: border-box; 
 } 
-.col-md-6 {
+.wt-col-md-6 {
   width: 50%;
 }
-.col-md-3 {
+.wt-col-md-3 {
   width: 25%;
 }
-.col-md-9 {
+.wt-col-md-9 {
   width: 75%;
 }
-.col-md-4 {
+.wt-col-md-4 {
   width: 33.3%;
 }
-.col-md-6 img,
-.col-md-3 img,
-.col-md-4 img,
-.col-md-9 img {
+.wt-col-md-6 img,
+.wt-col-md-3 img,
+.wt-col-md-4 img,
+.wt-col-md-9 img {
   display: block;
   max-width: 100%;
   height: auto;
 }
-.two-col .col-md-6,
-.two-col-left .col-md-3,
-.two-col-left .col-md-9,
-.two-col-right .col-md-3,
-.two-col-right .col-md-9,
-.three-col .col-md-4 {
+.wt-two-col .wt-col-md-6,
+.wt-two-col-left .wt-col-md-3,
+.wt-two-col-left .wt-col-md-9,
+.wt-two-col-right .wt-col-md-3,
+.wt-two-col-right .wt-col-md-9,
+.wt-three-col .wt-col-md-4 {
   min-height: 5em;
 }
-.two-col-right .col-sidebar,
-.two-col-left .col-sidebar {
+.wt-two-col-right .wt-col-sidebar,
+.wt-two-col-left .wt-col-sidebar {
   padding: 15px 0;
 }
-.two-col-left .col-sidebar,
-.two-col-right .col-md-9{
+.wt-two-col-left .wt-col-sidebar,
+.wt-two-col-right .wt-col-md-9{
   margin: 0;
 }
-.three-col .col-2{
+.wt-three-col .wt-col-2{
   padding-left: 7.5px;
   padding-right: 7.5px;
 }
-.row.four-col {
+.wt-row.wt-four-col {
   display: flex;
 }
-.four-col .col {
+.wt-four-col .wt-col {
   margin-left: 5px;
   margin-right: 5px;
   padding-left: 0;
   padding-right: 0;
   flex: 1 auto;
 }
-.four-col .col:first-child {
+.wt-four-col .wt-col:first-child {
   margin-left: 0;
 }
-.four-col .col:last-child {
+.wt-four-col .wt-col:last-child {
   margin-right: 0;
 }
-.box,
-.quotebox {
+.wt-box,
+.wt-quotebox {
   padding: 8px;
   margin: 10px auto;
 }
-.box .box-title,
-.box .box-content,
-.quotebox .quote,
-.quotebox .byline {
+.wt-box .wt-box-title,
+.wt-box .wt-box-content,
+.wt-quotebox .wt-quote,
+.wt-quotebox .wt-byline {
   margin-left: 0;
   margin-right: 0;
   padding: 2px 5px;
   overflow: hidden;
 }
-.quotebox .byline {
+.wt-quotebox .wt-byline {
   text-align: right;
   font-style: italic;
 }
-.quotebox {
+.wt-quotebox {
   background: #efefef url(../images/widgetcommonQuotebox.png) 5px 2px no-repeat;
   border: 1px solid #cccccc; 
 }
-.quotebox .quote {
+.wt-quotebox .wt-quote {
   margin-left: 20px;
   margin-bottom: 5px;
   font-size: 1.2em;
 }
-.box {
+.wt-box {
   border: 1px solid #cccccc; 
   background-color: #efefef;
   padding: 8px;
   display: block;
   overflow: hidden;
 }
-.box .box-title {
+.wt-box .wt-box-title {
   text-align: center;
   font-size: 1.2em;
   font-weight: bold;
 }
-.box .box-title p,
-.quotebox .byline p {
+.wt-box .wt-box-title p,
+.wt-quotebox .wt-byline p {
   margin-bottom: 0;
 }
-.box .row {
+.wt-box .wt-row {
   margin-left: 0;
   margin-right: 0;
 }';
@@ -148,19 +148,19 @@ function wwm_ckeditor_template_feature_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'wysiwyg_template_editor_styles';
-  $strongarm->value = '.row { 
+  $strongarm->value = '.wt-row { 
   margin-left: -15px; 
   margin-right: -15px; 
   background-color: #eee;
 } 
-.row:before, .row:after { 
+.wt-row:before, .wt-row:after { 
   content: " "; 
   display: table; 
 } 
-.row:after { 
+.wt-row:after { 
   clear: both; 
 } 
-.col-md-3, .col-md-4, .col-md-6, .col-md-9 { 
+.wt-col-md-3, .wt-col-md-4, .wt-col-md-6, .wt-col-md-9 { 
   position: relative; 
   min-height: 1px; 
   float: left; 
@@ -168,32 +168,32 @@ function wwm_ckeditor_template_feature_strongarm() {
   box-sizing: border-box; 
    -moz-box-sizing: border-box; 
 } 
-.col-md-6 { 
+.wt-col-md-6 { 
   width: 50%; 
 } 
-.col-md-3 { 
+.wt-col-md-3 { 
   width: 25%; 
 } 
-.col-md-9 { 
+.wt-col-md-9 { 
   width: 75%; 
 } 
-.col-md-4 { 
+.wt-col-md-4 { 
   width: 33.3%; 
 } 
-.col-md-6 img, 
-.col-md-3 img, 
-.col-md-4 img, 
-.col-md-9 img { 
+.wt-col-md-6 img, 
+.wt-col-md-3 img, 
+.wt-col-md-4 img, 
+.wt-col-md-9 img { 
   display: block; 
   max-width: 100%; 
   height: auto; 
 } 
-.row, 
-.two-col, 
-.two-col-left, 
-.two-col-right, 
-.three-col, 
-.four-col { 
+.wt-row, 
+.wt-two-col, 
+.wt-two-col-left, 
+.wt-two-col-right, 
+.wt-three-col, 
+.wt-four-col { 
   padding: 8px; 
   margin: 10px auto; 
   background: #eee; 
@@ -201,65 +201,65 @@ function wwm_ckeditor_template_feature_strongarm() {
   border: 1px solid #ddd; 
   box-shadow: 0 1px 1px #fff inset, 0 -1px 0px #ccc inset; 
 } 
-.two-col .col-md-6, 
-.two-col-left .col-md-3, 
-.two-col-left .col-md-9, 
-.two-col-right .col-md-3, 
-.two-col-right .col-md-9, 
-.three-col .col-md-4, 
-.four-col .col-md-3, 
-.col { 
+.wt-two-col .wt-col-md-6, 
+.wt-two-col-left .wt-col-md-3, 
+.wt-two-col-left .wt-col-md-9, 
+.wt-two-col-right .wt-col-md-3, 
+.wt-two-col-right .wt-col-md-9, 
+.wt-three-col .wt-col-md-4, 
+.wt-four-col .wt-col-md-3, 
+.wt-col { 
   box-shadow: 0 1px 1px #ddd inset; 
   border: 1px solid #cccccc; 
   border-radius: 5px; 
   background: #fff; 
   min-height: 5em; 
 } 
-.two-col .col-md-6, 
-.two-col-left .col-md-3, 
-.two-col-left .col-md-9, 
-.two-col-right .col-md-3, 
-.two-col-right .col-md-9 { 
+.wt-two-col .wt-col-md-6, 
+.wt-two-col-left .wt-col-md-3, 
+.wt-two-col-left .wt-col-md-9, 
+.wt-two-col-right .wt-col-md-3, 
+.wt-two-col-right .wt-col-md-9 { 
   margin: -3px; 
 } 
-.two-col-right .col-sidebar, 
-.two-col-left .col-sidebar { 
+.wt-two-col-right .wt-col-sidebar, 
+.wt-two-col-left .wt-col-sidebar { 
   padding: 15px 0; 
 } 
-.two-col .col-2 { 
+.wt-two-col .wt-col-2 { 
   margin-left: 9px; 
 } 
-.three-col .col-1 { 
+.wt-three-col .wt-col-1 { 
   margin-left: -3px; 
 } 
-.three-col .col-2 { 
+.wt-three-col .wt-col-2 { 
   margin-left: 3px; 
 } 
-.three-col .col-3 { 
+.wt-three-col .wt-col-3 { 
   margin-left: 3px; 
   margin-right: -3px; 
 } 
-.two-col-left .col-md-9{ 
+.wt-two-col-left .wt-col-md-9{ 
   margin-left: 8px; 
 } 
-.two-col-right .col-md-9{ 
+.wt-two-col-right .wt-col-md-9{ 
   margin-right: 8px; 
 } 
-.four-col .col-1 { 
+.wt-four-col .wt-col-1 { 
   margin-left: -4px; 
 } 
-.four-col .col-2 { 
+.wt-four-col .wt-col-2 { 
   margin-left: 3px; 
 } 
-.four-col .col-3 { 
+.wt-four-col .wt-col-3 { 
   margin-left: 3px; 
 } 
-.four-col .col-4 { 
+.wt-four-col .wt-col-4 { 
   margin-right: -5px; 
   margin-left: 3px; 
 } 
-.box, 
-.quotebox { 
+.wt-box, 
+.wt-quotebox { 
   padding: 8px; 
   margin: 10px auto; 
   background: #eee; 
@@ -267,10 +267,10 @@ function wwm_ckeditor_template_feature_strongarm() {
   border: 1px solid #ddd; 
   box-shadow: 0 1px 1px #fff inset, 0 -1px 0px #ccc inset; 
 } 
-.box .box-title, 
-.box .box-content, 
-.quotebox .quote, 
-.quotebox .byline { 
+.wt-box .wt-box-title, 
+.wt-box .wt-box-content, 
+.wt-quotebox .wt-quote, 
+.wt-quotebox .wt-byline { 
   box-shadow: 0 1px 1px #ddd inset; 
   border: 1px solid #cccccc; 
   border-radius: 5px; 
@@ -280,34 +280,34 @@ function wwm_ckeditor_template_feature_strongarm() {
   padding: 2px 5px; 
   overflow: hidden;
 } 
-.quotebox .byline { 
+.wt-quotebox .wt-byline { 
   text-align: right; 
   font-style: italic; 
 } 
-.box .box-content, 
-.quotebox .quote { 
+.wt-box .wt-box-content, 
+.wt-quotebox .wt-quote { 
   min-height: 3em; 
 } 
-.box .box-title p, 
-.quotebox .byline p { 
+.wt-box .wt-box-title p, 
+.wt-quotebox .wt-byline p { 
   margin-bottom: 0; 
 } 
-.box .box-title { 
+.wt-box .wt-box-title { 
   background: #fff;
   margin-bottom: 10px;
 } 
-.box .row { 
+.wt-box .wt-row { 
   margin-left: 0; 
   margin-right: 0; 
 } 
-.quotebox { 
+.wt-quotebox { 
   background: #efefef url(../images/widgetcommonQuotebox.png) 5px 2px no-repeat; 
 } 
-.quotebox .quote { 
+.wt-quotebox .wt-quote { 
   margin-left: 20px; 
   margin-bottom: 5px; 
 } 
-[class*="col-md"] {
+[class*="wt-col-md"] {
   box-shadow: 0 1px 1px #ddd inset;
   border: 1px solid #cccccc;
   border-radius: 5px;
@@ -315,13 +315,13 @@ function wwm_ckeditor_template_feature_strongarm() {
   min-height: 5em;
   margin-left: 0.5em;
 }
-[class*="col-md"]:first-child {
+[class*="wt-col-md"]:first-child {
   margin-left: -0.25em;
 }
-[class*="col-md"]:last-child {
+[class*="wt-col-md"]:last-child {
   margin-right: -0.5em;
 }
-a.button {
+a.wt-button {
   background: #fff;
   border: 1px solid #e4e4e4;
   border-bottom: 1px solid #b4b4b4;

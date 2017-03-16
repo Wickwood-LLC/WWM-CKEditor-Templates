@@ -141,6 +141,25 @@ function wwm_ckeditor_template_feature_strongarm() {
 .wt-box .wt-row {
   margin-left: 0;
   margin-right: 0;
+}
+a.wt-button {
+  background: #fff;
+  border: 1px solid #e4e4e4;
+  border-bottom: 1px solid #b4b4b4;
+  border-left-color: #d2d2d2;
+  border-right-color: #d2d2d2;
+  color: #3a3a3a;
+  cursor: pointer;
+  font-size: 90%;
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 1em;
+  padding: 4px 17px;
+  -khtml-border-radius: 15px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+  text-decoration: none;
 }';
   $export['wysiwyg_template_content_view_styles'] = $strongarm;
 

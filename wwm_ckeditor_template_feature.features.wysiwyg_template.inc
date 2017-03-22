@@ -92,7 +92,7 @@ function wwm_ckeditor_template_feature_wysiwyg_template_default_templates() {
     'description' => 'Layout to provide a block of text with a Title above it',
     'weight' => 0,
     'fid' => 0,
-    'body' => '<div class="wt-row box">
+    'body' => '<div class="wt-row wt-box">
 <div class="wt-box-title">Title</h2></div>
 <div class="wt-box-content">Content</div>
 </div>',
